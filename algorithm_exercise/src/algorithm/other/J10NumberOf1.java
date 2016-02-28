@@ -1,4 +1,4 @@
-package algorithm.recursionandloop;
+package algorithm.other;
 
 public class J10NumberOf1 {
    public int NumberOf1(int n) {
