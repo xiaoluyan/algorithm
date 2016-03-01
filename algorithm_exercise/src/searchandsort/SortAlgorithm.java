@@ -1,4 +1,4 @@
-package algorithm.searchandsort;
+package searchandsort;
 
 import java.util.Random;
 

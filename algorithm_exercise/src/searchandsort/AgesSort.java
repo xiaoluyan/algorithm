@@ -1,4 +1,4 @@
-package algorithm.searchandsort;
+package searchandsort;
 
 public class AgesSort {
 	public int[] sortAges(int[] ages, int length) {

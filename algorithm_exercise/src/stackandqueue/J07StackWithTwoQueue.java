@@ -1,7 +1,6 @@
-package datastructure.stackandqueue;
+package stackandqueue;
 
 import java.util.LinkedList;
-import java.util.Queue;
 
 public class J07StackWithTwoQueue {
 	LinkedList<Integer> queue1 = new LinkedList<Integer>();

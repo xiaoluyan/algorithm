@@ -1,4 +1,4 @@
-package algorithm.searchandsort;
+package searchandsort;
 
 public class J08MinNumberInRotateArray {
 

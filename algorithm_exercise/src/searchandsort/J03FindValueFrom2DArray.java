@@ -1,4 +1,4 @@
-package datastructure.array;
+package searchandsort;
 
 /**
  * 面试题3：在一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下的数序排列。

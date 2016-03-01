@@ -1,4 +1,4 @@
-package datastructure.treenode;
+package treenode;
 
 /**
  * Defination for binary tree

@@ -1,4 +1,4 @@
-package datastructure.treenode;
+package treenode;
 
 public class J06ReConstructBinaryTree {
 

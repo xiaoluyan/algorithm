@@ -1,4 +1,4 @@
-package datastructure.listnode;
+package listnode;
 
 import java.util.ArrayList;
 import java.util.Stack;

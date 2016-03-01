@@ -1,7 +1,7 @@
-package algorithm.other;
+package recursionandloop;
 
 /**
- * 求小数的n次方
+ * 求浮点数的n次方
  * @author Luyan Xiao
  *
  */

@@ -1,4 +1,4 @@
-package datastructure.str;
+package str;
 
 
 public class J04ReplaceSpace {
@@ -17,7 +17,6 @@ public class J04ReplaceSpace {
 			}
 		}
 		
-		int increNum = spaceNum * 2;
 		int newLength = originalLength + spaceNum * 2;
 		char[] temp = new char[newLength];
 		originalLength--;

@@ -1,4 +1,4 @@
-package algorithm.recursionandloop;
+package recursionandloop;
 
 public class J09JumpFloor {
 	
