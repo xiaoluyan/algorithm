@@ -1,6 +1,7 @@
 package treenode;
 
 public class J19MirrorOfBinaryTree {
+	
     public void mirror(TreeNode root) {
     	//边界条件判断，也是递归结束条件
         if(root == null || (root.left == null && root.right == null)) {
