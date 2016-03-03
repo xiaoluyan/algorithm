@@ -21,14 +21,14 @@ public class J13DeleteNodeInList {
 			return;
 		}
 		
-		////链表中有多个结点，要删除的结点不是尾结点
+		//链表中有多个结点，要删除的结点不是尾结点
 		if(headListNode.next != null) {
 			ListNode next = delListNode.next;
 			delListNode.val = next.val;
 			delListNode.next = next.next;
 			next = null;
-		} else if(headListNode == delListNode) { //链表只有一个结点，要删除的结点既是头结点也是尾结点
-			headListNode = delListNode = null;
+		} else if(headListNode == delListNode) { //链表只有一个结点，要删除的结点既是头结点也是尾结点。
+			headListNode = delListNode = null;   //因java的通过传值来传递引用特点，原始引用并不为null
 		} else {//链表中有多个结点，但删除的是尾结点。故删除时需要顺序查找
 			ListNode pListNode = headListNode;
 			while(pListNode.next != delListNode) {
@@ -50,7 +50,7 @@ public class J13DeleteNodeInList {
 //		J13DeleteNodeInList.deleteNodeInList(headListNode, listNode2);
 //		System.out.println(headListNode.next.val);
 		
-		//？？？只有一个结点删除有问题
+		//???只有一个结点删除有问题,需要把原始引用赋值为null
 		j13DeleteNodeInList.deleteNodeInList(headListNode, headListNode);
 		System.out.println(headListNode.val);
 	}
