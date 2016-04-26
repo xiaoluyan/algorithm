@@ -1,10 +1,8 @@
-/algorithm/
-/datastructure/
-/stackandqueue/
-/treenode/
-/str/
-/listnode/
-/array/
-/searchandsort/
-/recursionandloop/
 /bitcalc/
+/listnode/
+/recursionandloop/
+/searchandsort/
+/stackandqueue/
+/str/
+/treenode/
+/arr/
