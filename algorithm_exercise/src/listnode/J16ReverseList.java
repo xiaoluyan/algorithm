@@ -34,12 +34,12 @@ public class J16ReverseList {
 	
 	public static void main(String[] args) {
         ListNode head = new ListNode(1);  
-//        ListNode second = new ListNode(2);  
-//        ListNode third = new ListNode(3);  
-//        ListNode forth = new ListNode(4);
-//        head.next = second;  
-//        second.next = third;  
-//        third.next = forth;  
+        ListNode second = new ListNode(2);  
+        ListNode third = new ListNode(3);  
+        ListNode forth = new ListNode(4);
+        head.next = second;  
+        second.next = third;  
+        third.next = forth;  
         ListNode res = J16ReverseList.reverseList(head);
         System.out.println(res.val);
 	}
